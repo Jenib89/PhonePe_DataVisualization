@@ -13,7 +13,7 @@ import plotly.express as px
 # # Creating connection with mysql workbench
 connection = sql.connect(host="localhost",   
                    user = "root",               
-                   password="Jeni27589$",
+                   password="******",
                    database  = "phonepe_pulse",
                    auth_plugin ="mysql_native_password")
 mycursor = connection.cursor()
