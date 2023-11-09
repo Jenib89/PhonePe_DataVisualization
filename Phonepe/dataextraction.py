@@ -7,7 +7,7 @@ from sqlalchemy import create_engine
 
 connection = sql.connect(host="localhost",   
                    user = "root",               
-                   password="Jeni27589$",
+                   password="******",
                    database  = "phonepe_pulse",
                    auth_plugin ="mysql_native_password")
 cursor = connection.cursor()
