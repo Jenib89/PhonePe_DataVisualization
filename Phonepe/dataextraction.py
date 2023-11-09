@@ -241,11 +241,8 @@ def insert_values(variable_name,table_name,cursor,connection):
         connection.commit()
 
 
-#username = "root"
-#password = "Jeni27589$"
-#host = "localhost"
-#database_name = "phonepe_pulse"
-#auth_plugin = "?auth_plugin=mysql_native_password"
+
+
 
 #df_trans = extract_aggregated_transactions()
 #st.write(df_trans.dtypes)
